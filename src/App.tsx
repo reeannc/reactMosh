@@ -1,4 +1,5 @@
 import ListGroup from "./components/ListGroup";
+import Button from "./components/Button";
 
 function App() {
   let items = ["New York", "Baguio", "Paris"];
@@ -14,6 +15,7 @@ function App() {
         heading="Cities"
         onSelectItem={handleSelectItem}
       />
+      <Button>Botones</Button>
     </div>
   );
 }
@@ -21,3 +23,5 @@ function App() {
 export default App;
 
 //when onSelectItem, first needs a function handleSelectItem
+
+//exercise: add error boundary
